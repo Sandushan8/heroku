@@ -32,7 +32,7 @@ connection.once("open",()=>{
     console.log("This database is Connection success!");
 })
 app.use('/',(req,res)=>{
-    res.json("Server started")
+    res.send("Server started")
 })
 
  app.use("/details",require("./Routes/Student/apiRoutes"));
