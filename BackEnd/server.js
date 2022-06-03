@@ -31,7 +31,9 @@ const connection = mogoose.connection;
 connection.once("open",()=>{
     console.log("This database is Connection success!");
 })
-
+app.use('/',(req,res)=>{
+    res.json("Server started")
+})
 
  app.use("/details",require("./Routes/Student/apiRoutes"));
  app.use("/topic",upload.single('avatar'),require("./Routes/Student/topicReg"));
