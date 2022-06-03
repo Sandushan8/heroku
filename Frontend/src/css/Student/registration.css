@@ -1,0 +1,65 @@
+.student_body{
+    background-image: url('../../Images//Student/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.RegistrationWrapper{
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 450px;
+    height: 320px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 180px;
+    padding: 10px;
+    border-radius: 10px;
+     
+}
+.inputFieldArea{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.regOption{
+    width: 364px;
+    height: 30px;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.regInputFields{
+    width: 365px;
+    height: 29px;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(227, 227, 227);
+}
+.regInputFields::placeholder{
+    color: aliceblue;
+}
+.registerbtn{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 1px solid white;
+    border-radius: 5px;  
+    color: black;
+    background-color: rgb(253, 197, 124);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.registerbtn:hover{
+    background-color: rgb(249, 172, 79);
+}
+.hide{
+    visibility: hidden;
+}
+ 

@@ -1,0 +1,23 @@
+.wrapper{
+    /* background-color: rgb(206, 206, 206); */
+    max-width: 1000px;
+    border-radius:10px ;
+    margin-left: 123px;
+    margin-top: 10px;
+    
+}
+.wrapper p{
+    padding: 10px;
+    margin-left: 20px;
+    font-weight:500;
+    color:white;
+}
+
+.date{
+    color: rgb(55, 55, 55);
+}
+.noticeSeparator{
+    margin: auto;
+    margin-top: 10px;
+    width: 950px;
+}

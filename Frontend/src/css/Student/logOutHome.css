@@ -1,0 +1,28 @@
+.clearfix{overflow: auto}
+*{margin: 0; padding: 0;}
+
+.student_body{
+    background-image: url('../../Images/Student/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.displayImage{
+    width: 1150px;
+    height: 400px;
+    outline: none;
+    margin: auto;    
+    margin-top: 60px;
+    margin-bottom: 77px;
+    border-radius: 50px 0px 50px 0px;
+}
+.displayImage h2{
+    padding-top:80px;
+    padding-left: 80px;
+}
+.displayImage p{
+    margin-top: 35px;
+    margin-left: 220px;
+    font-size: 15px;
+    font-weight: 400;
+}

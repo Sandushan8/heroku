@@ -1,0 +1,20 @@
+.usercontainer{
+    height: 100vh;
+    background: linear-gradient(135deg, black,blue);
+}
+
+.userh{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    text-align: center;
+}
+
+.summary{
+    color: white;
+    display: flex;
+}
+.halfU{
+    width: 50%;
+    text-align: center;
+}

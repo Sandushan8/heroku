@@ -1,0 +1,153 @@
+.student_body{
+    background-image: url('../../Images/Student/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profileWrapper {
+    /* background-color: rgb(98, 98, 98); */
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px
+}
+
+.profileLeftWrapper {
+
+    width: 280px;
+    height: 600px;
+    float: left;
+
+}
+
+.profileRightWrapper {
+    /* background-color:rgb(35, 35, 35); */
+    float: right;
+    width: 515px;
+    height: 560px;
+    border-left-style: solid;
+    border-left-color: antiquewhite;
+    border-left-width: 1px;
+    margin-top: 20px;
+
+}
+
+.profileAvatar {
+    border-radius: 100px;
+    margin-top: 70px;
+    margin-left: 75px;
+}
+
+.proGroupID {
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.leftSeparator {
+    width: 245px;
+}
+
+.topic {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 7px;
+
+}
+.stdDetails{
+    width:"100px";
+    margin-left:"20px";
+    background-color: blue;
+}
+.stdidDetails {
+    background-color:transparent;
+    padding: 10px;
+    border: none;
+    outline-color: #999;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.stdNameDetails {
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    outline-color: #999;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.separator {
+    width: 480px;
+
+}
+
+.discription {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    outline-color: #999;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imgUploader {
+
+    color: transparent;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.imgUploader:hover{
+    border-color: black;
+}
+.iconcolor{
+    color: rgb(190, 190, 190);
+}
+
+.updatebtn {
+    width: 110px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 380px;
+    background-color: rgb(5, 120, 5);
+    color: white;
+}
+
+.updatebtn:hover {
+    border: 1px solid white;
+    background-color: rgb(1, 99, 1);
+
+}

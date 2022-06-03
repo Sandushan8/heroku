@@ -1,0 +1,23 @@
+.grpNameWrapper{
+    height:40px;
+    margin-top: 3px;
+    padding-left:15px;
+    border-bottom: 1px solid white;
+    
+ 
+}
+.grpNameWrapper:hover{
+    background-color:rgb(179, 179, 179);
+}
+.grpProfileImg{
+    float: left;
+    margin-top:5px;
+    border-radius: 50px;
+    margin-right:25px ;
+}
+.grpName{
+    float: left;
+    font-weight:500;
+    margin-top:8px;
+    color:white;
+}

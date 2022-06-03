@@ -1,0 +1,35 @@
+.messageWrapper{
+    width:440px ;
+    margin-top: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+ 
+.messageWrapper p{
+     
+    max-width:440px ;
+    font-size: 15px;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#student{
+    float: right;
+}
+#student p{
+    border-radius: 20px 20px 0 20px;
+    border: 1px solid rgb(122, 116, 116);
+    margin-bottom: 10px;
+    background-color: #CDD1D2;
+}
+#supervisor{
+    float: left;
+}
+
+#supervisor p{
+ 
+    border-radius: 20px 20px 20px 0;
+    border: 1px solid rgb(122, 116, 116);
+    margin-bottom: 10px;
+    background-color: #679EEF;
+}

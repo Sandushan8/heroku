@@ -1,0 +1,82 @@
+
+.student_body{
+    background-image: url('../../Images/Student/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearFix{
+    overflow: auto;
+}
+.supervisorNameSearch{
+    width: 250px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 15px;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-bottom-width: 2px;
+    background-color: transparent;
+}
+.supervisorNameSearch::placeholder{
+    color: rgb(223, 223, 223);
+}
+.heading{
+    margin:auto;
+    color: white;
+    float: left;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.re-areaSearch{
+    width: 250px;
+    height: 30px;
+    margin-right: 40px;
+    margin-top: 15px;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-bottom-width: 2px;
+    background-color: transparent;
+
+}
+.re-areaSearch::placeholder{
+    color: rgb(223, 223, 223);
+}
+
+.supervisorDetailWrapper{
+    width: 930px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: 1px solid antiquewhite;
+    border-radius: 10px
+}
+.filterDetailsWrapper{
+    margin: auto;
+    width: 890px;
+    height: 60px;
+    border-bottom: 1px solid white;
+}
+.supervisorsDetails{
+    margin: auto;
+    /* background-color: antiquewhite; */
+    width: 870px;
+    height: 530px;
+    margin-top: 5px;  
+    overflow: auto;
+}
+.supervisorsDetails::-webkit-scrollbar {
+    display: none;
+}

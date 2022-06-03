@@ -1,0 +1,32 @@
+
+.student_body{
+    background-image: url('../../Images/Student/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.myRequestWrapper {
+    margin: auto;
+    height: 550px;
+    width: 780px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    overflow:auto;
+    overflow-y: scroll;
+}
+.myRequestWrapper::-webkit-scrollbar {
+    display: none;
+}
+ 
+.headingWrapper {
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+.reqHeading {
+    color: white;
+    margin-top: 15px;
+    margin-bottom:20px;
+}

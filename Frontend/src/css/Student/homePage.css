@@ -1,0 +1,58 @@
+*{margin: 0; padding: 0;}
+.clearfix{overflow: auto}
+
+.student_body{
+    background-image: url('../../Images//Student/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.registration{
+    width: 1000px;
+    height: 180px;
+    background:transparent;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.registration-Links{
+    margin-top: 42px; 
+}
+.registration-Links a{
+    text-decoration: none;
+    margin-left: 40px;
+    padding-right: 40px;
+    color: #FFCB21;
+    font-weight: bold;
+    font-size:17px ;
+
+}
+.a4{
+    margin-right:-22px ;
+ }
+.a5{
+   margin-right:-23px ;
+}
+.registration-Links a:hover{
+    color: #f6a314;
+    
+}
+.announcement{
+    width: 1000px;
+    background-color: #35393e;
+    height: 40px;
+    margin: auto;
+    margin-top:10px ;
+    margin-top: 10px;
+    border-radius:8px ;
+}
+.announcement h4{
+    margin-left: 20px;
+    padding:8px;
+    color: white; 
+}
+ 
+
+

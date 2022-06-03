@@ -1,0 +1,49 @@
+.clearfix{
+    overflow: auto;
+}
+.footterMain{
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    margin-top: 20px;
+}
+.section1{
+    float: left;
+    padding: 50px;
+    margin-left: 150px;
+}
+.section1 h4{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+
+}
+.section1 p{
+    margin-top: 5px;
+     
+}
+.section2{
+    float: left;
+    padding: 50px;
+    margin-left:160px;
+}
+.section2 h4{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+
+}
+.section2 p{
+    margin-top: 5px;
+     
+}
+.section3{
+    float: left;
+    padding: 50px;
+    margin-left: 160px;
+}
+.section3 h4{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+}
+.section3 p{
+    margin-top: 5px;
+     
+}

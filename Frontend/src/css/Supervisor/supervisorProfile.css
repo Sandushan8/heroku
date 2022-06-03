@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,200&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+.profilebody {
+  /* background-image: url('../images/background5.jpg'); */
+  background-image: url('../../Images/Supervisor/background5.jpg');
+  font-family: 'Raleway', sans-serif;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140vh;
+  width: 100vw;
+}
+
+.mainContainer {
+  display: flex;
+  height: 123vh;
+  width: 50vw;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(20, 1, 48, 0.379);
+  backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  color: #ffffff;
+  letter-spacing: 0.4rem;
+
+}
+
+.profile-title {
+  margin: 3rem 0 2rem 0;
+  margin-left: 60px;
+  color: #261d3b;
+  font-weight: 300;
+
+}
+
+.left-wrapper {
+  width: 280px;
+  height: 800px;
+  float: left;
+  margin-left: 30px;
+}
+
+.profileimg {
+  margin-left: 43px;
+  margin-top: 20px;
+  align-items: center;
+
+}
+
+.btnContainer {
+  margin: 1rem 0 2rem 0;
+  margin-left: 18px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadbtn {
+  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.right-wrapper {
+  width: 280px;
+  height: 800px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.profile-details {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(20, 1, 48, 0.379);
+  border-radius: 5px;
+  width: 130%;
+  height: 3rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-size: 1rem;
+}
+
+.textdetails {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(20, 1, 48, 0.379);
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-size: 1rem;
+  width: 130%;
+  border-radius: 5px;
+  height: 6rem;
+  padding: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.insertbtnContainer {
+  width: 100%;
+  float: left;
+  margin-left: 142px;
+}
+
+.insertbtn {
+  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  float: left;
+
+}
+
+
+/* my account */
+
+.account-body {
+  /* background-image: url('../images/background5.jpg'); */
+  background-image: url('../../Images/Supervisor/background5.jpg');
+  font-family: 'Raleway', sans-serif;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.account-container {
+  margin-top: 70px;
+  display: flex;
+  height: 85vh;
+  width: 50vw;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(20, 1, 48, 0.379);
+  backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  color: #ffffff;
+  letter-spacing: 0.4rem;
+  margin-bottom: 60px;
+
+}
+
+.account-wrapper{
+  margin-top: 0px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.account-title {
+  margin: 3rem 0 2rem 0;
+  letter-spacing: 0.2rem;
+  margin-left: 50px;
+  color: #3c354e;
+
+}
+
+.editbtn {
+  margin-top: 50px;
+  width: 100px;
+  height: 40px;
+  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-left: 130px;
+}
+
+.Leftwrapper {
+  margin-top: 20px;
+  width: 280px;
+  height: 400px;
+  float: left;
+  margin-left: 30px;
+}
+
+.profilephoto{
+  margin-left: 43px;
+  margin-top: 30px;
+  align-items: center;
+
+}
+
+.email{
+  color: #08091a;
+  letter-spacing: normal;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.contact{
+  color: #08091a;
+  letter-spacing: normal;
+  margin-left: 55px;
+
+}
+
+.sliit-ID, .position, .faculty{
+  color: #08091a;
+  letter-spacing: 0.1rem;
+  font-family: sans-serif;
+}
+
+.Rightwrapper {
+  margin-top: 30px;
+  width: 280px;
+  height: 400px;
+  float: left;
+  margin-left: 25px;
+  width: max-content;
+
+}
+
+.heading1{
+  margin-top: 60px;
+  color: #3c354e;
+  letter-spacing: 0.1rem;
+}
+
+.heading2{
+  margin-top: 40px;
+  color: #3c354e;
+  letter-spacing: 0.1rem;
+}
+
+.data1{
+  color: #15111e;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+  justify-content: center;
+}
