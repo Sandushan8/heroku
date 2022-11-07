@@ -1,5 +1,5 @@
 {
-  "name": "Educa App",
+  "name": "educa_app",
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
@@ -9,8 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon backend/server.js",
-    "dev": "node backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "dev": "node backend/server.js"
   },
   "author": "chanuth",
   "license": "ISC",
