@@ -1,5 +1,5 @@
 {
-  "name": "educa_app",
+  "name": "Educa App",
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
@@ -7,12 +7,11 @@
     "node": "16.14.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js",
+    "dev": "node backend/server.js",
+    "heroku-prebuild": "npm install -f",
+    "heroku-postbuild": "npm run prod"
   },
   "author": "chanuth",
   "license": "ISC",
@@ -30,7 +29,6 @@
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15",
     "npm": "^8.7.0",
-    "serve": "^14.0.1",
     "stripe": "^8.215.0",
     "validator": "^13.7.0"
   }
