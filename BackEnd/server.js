@@ -1,61 +1,37 @@
-const express = require("express");
-const mogoose = require("mongoose");
-const bodyParser = require("body-parser");
-const cors = require("cors");
+const app = require("./app");
+const connectDatabase = require("./db/Database.js");
+const cloudinary = require("cloudinary");
 
-require("dotenv").config();
+// Handling uncaught Exception
+process.on("uncaughtException",(err) =>{
+    console.log(`Error: ${err.message}`);
+    console.log(`Shutting down the server for Handling uncaught Exception`);
+})
 
-//Ihill files
-const iroutes = require('./Routes/Admin/Adminfunctions')
+// config
+if(process.env.NODE_ENV!=="PRODUCTION"){
+require("dotenv").config({
+    path:"backend/config/.env"
+})}
+// connect database
+connectDatabase();
 
-const app = express();
-const upload = require("./middleware/upload")
+cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET
+})
 
-//port Number Assign
-const port = process.env.port || 8000;
+// create server
+const server = app.listen(process.env.PORT,() =>{
+    console.log(`Server is working on http://localhost:${process.env.PORT}`)
+})
 
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}))
-app.use(express.json())
-//Database Connection URL
-const URL = process.env.DB_URL;
-
-mogoose.connect(URL,{
-    useNewUrlParser: true,
-    useUnifiedTopology:true,
+// Unhandled promise rejection
+process.on("unhandledRejection", (err) =>{
+    console.log(`Shutting down server for ${err.message}`);
+    console.log(`Shutting down the server due to Unhandled promise rejection`);
+    server.close(() =>{
+        process.exit(1);
+    });
 });
-
-//Check the database connection
-const connection = mogoose.connection;
-connection.once("open",()=>{
-    console.log("This database is Connection success!");
-})
-
-
- app.use("/details",require("./Routes/Student/apiRoutes"));
- app.use("/topic",upload.single('avatar'),require("./Routes/Student/topicReg"));
- 
-
-//Thivanka Routes
-app.use("/details",require("./Routes/Student/apiRoutes"));
-
-//Punsisi Supervisor-Routes
-const supervisorRouter = require('./Routes/Supervisor/apiRoutes.js');
-
-app.use('/supervisor', supervisorRouter);
-
-//Ihill Routes
-//submission type & marking schemes
-app.use('/submark',require('./Routes/Admin/Adminfunctions'))
-//-------------------
-//file uploads
-app.use('/files',require('./Routes/Admin/Upload'))
-//-------------------
-//user routes
-app.use('/users',require('./Routes/Admin/Users'))
-
-//Display the working port
-app.listen(port,()=>{
-    console.log(`This Server is running in this ${port} port`)
-})
